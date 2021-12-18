@@ -1,3 +1,21 @@
+## [1.0.5](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.4...v1.0.5) (2021-12-18)
+
+
+### Bug Fixes
+
+* **iows:** getStoreProductAvailability accepts number productIds ([7fea4dc](https://github.com/Ephigenia/ikea-availability-checker/commit/7fea4dcad92cf28dc32986ad0ffc7f091048c5b6))
+* **iows:** normalization of productCode trim after replace ([ed0415d](https://github.com/Ephigenia/ikea-availability-checker/commit/ed0415dabe4e49557c6c3d9f0729f348eb76320a))
+* **iows:** normalize buCode ([c9ce169](https://github.com/Ephigenia/ikea-availability-checker/commit/c9ce16908f5d5ffd1b4fad9b7a396586d51c2f6f))
+* **iows:** throw error on non-numeric buCode or productCode ([254616e](https://github.com/Ephigenia/ikea-availability-checker/commit/254616e20a70bf23010bc56a2cc46acfd07756c0))
+
+## [1.0.4](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.3...v1.0.4) (2021-12-17)
+
+
+### Bug Fixes
+
+* adds all australian ikea stores ([#81](https://github.com/Ephigenia/ikea-availability-checker/issues/81)) ([a04df08](https://github.com/Ephigenia/ikea-availability-checker/commit/a04df08a6185f7281de25fc80a726e54e59ab4da))
+* **iows:** throw a IOWS2DeprecationError on deprecation header ([#80](https://github.com/Ephigenia/ikea-availability-checker/issues/80)) ([270c3a5](https://github.com/Ephigenia/ikea-availability-checker/commit/270c3a5091fdd2f8aafb2220a7e73a8145762b95))
+
 ## [1.0.3](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.2...v1.0.3) (2021-12-16)
 
 
