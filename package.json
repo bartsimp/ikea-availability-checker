@@ -2,7 +2,7 @@
   "author": "Ephigenia M. Eichner",
   "name": "ikea-availability-checker",
   "description": "ikea product in-store availability checker and product search",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "preferGlobal": true,
   "keywords": [
     "availability",
@@ -10,6 +10,9 @@
     "ikea",
     "iows",
     "product",
+    "cli",
+    "command-line-tool",
+    "commandline",
     "restock",
     "search",
     "stock",
@@ -19,6 +22,11 @@
   "engines": {
     "node": ">=14"
   },
+  "files": [
+    "source",
+    "!source/**/*.test.js",
+    "!source/test"
+  ],
   "maintainer": {
     "name": "Marcel Eichner",
     "email": "marcel.eichner@ephigenia.de"
@@ -43,27 +51,22 @@
   "bin": {
     "ikea-availability": "source/cli.js"
   },
-  "config": {
-    "paths": {
-      "source": "source"
-    }
-  },
   "scripts": {
-    "lint": "eslint $npm_package_config_paths_source/**/*.js",
+    "lint": "eslint source/**/*.js",
     "lint:fix": "npm run -s lint -- --fix",
     "_postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "start": "node source/cli.js",
     "tdd": "npm run -s test -- --watch",
-    "test": "NODE_ENV=test nyc --reporter=text-summary --reporter=lcov mocha \"$npm_package_config_paths_source/**/*.test.js\"",
+    "test": "NODE_ENV=test nyc --reporter=text-summary --reporter=lcov mocha \"source/**/*.test.js\"",
     "test:ci": "npm run -s test",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "0.24.0",
     "chalk": "4.1.2",
-    "cli-table3": "0.6.0",
+    "cli-table3": "0.6.1",
     "commander": "8.3.0",
     "i18n-iso-countries": "7.0.0"
   },

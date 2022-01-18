@@ -1,3 +1,17 @@
+## [1.0.7](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.6...v1.0.7) (2022-01-11)
+
+
+### Bug Fixes
+
+* **stores:** geolocation of karlsruhe germany ([#89](https://github.com/Ephigenia/ikea-availability-checker/issues/89)) ([b0198f2](https://github.com/Ephigenia/ikea-availability-checker/commit/b0198f2f430daacd3978070c1fe8aa5f74ad5bd9))
+
+## [1.0.6](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.5...v1.0.6) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update cli-table3 to fix colors mangled output ([e981e9d](https://github.com/Ephigenia/ikea-availability-checker/commit/e981e9de4f651d92cf234aa29626208ab48b8c58))
+
 ## [1.0.5](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.4...v1.0.5) (2021-12-18)
 
 
