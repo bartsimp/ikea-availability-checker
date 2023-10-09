@@ -1,3 +1,71 @@
+# [2.0.0-alpha.6](https://github.com/Ephigenia/ikea-availability-checker/compare/v2.0.0-alpha.5...v2.0.0-alpha.6) (2022-11-11)
+
+
+### Bug Fixes
+
+* wip ([fba15ee](https://github.com/Ephigenia/ikea-availability-checker/commit/fba15eef98288b625f1db2e103bc6f20134b926a))
+
+
+### Features
+
+* **stock:** add restockDate for Ingka API ([#138](https://github.com/Ephigenia/ikea-availability-checker/issues/138)) ([c105bb2](https://github.com/Ephigenia/ikea-availability-checker/commit/c105bb2a4472f1a59818bbe102da81368e9d44e2))
+
+# [1.2.0](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.5...v1.2.0) (2022-08-21)
+
+
+### Features
+
+* **stores:** adds the ability to list all stores ([83a1a41](https://github.com/Ephigenia/ikea-availability-checker/commit/83a1a41d08af42c387cfa65e67ccdb8668345b57))
+
+## [1.1.5](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.4...v1.1.5) (2022-08-14)
+
+
+### Features
+
+* **stores:** adds the ability to list all stores ([83a1a41](https://github.com/Ephigenia/ikea-availability-checker/commit/83a1a41d08af42c387cfa65e67ccdb8668345b57))
+
+## [1.1.4](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.3...v1.1.4) (2022-05-15)
+
+
+### Bug Fixes
+
+* **stores:** adds Nice St. Isidore store in France ([22d3651](https://github.com/Ephigenia/ikea-availability-checker/commit/22d3651adc0387a2726502b85bbd86f2cafec16d))
+
+## [1.1.3](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.2...v1.1.3) (2022-04-17)
+
+
+### Bug Fixes
+
+* **stores:** getCountryCodes returns codes sorted ([#101](https://github.com/Ephigenia/ikea-availability-checker/issues/101)) ([d39cd0d](https://github.com/Ephigenia/ikea-availability-checker/commit/d39cd0db50c2d709c9aaf78c8225ef3fd2b802a2))
+
+## [1.1.2](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.1...v1.1.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* adds pl Szczecin store ([#99](https://github.com/Ephigenia/ikea-availability-checker/issues/99)) ([f856aee](https://github.com/Ephigenia/ikea-availability-checker/commit/f856aee239bdea479d50bf0fb254c77b8a78d04f))
+
+## [1.1.1](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.1.0...v1.1.1) (2022-02-27)
+
+
+### Bug Fixes
+
+* **stock:** table outputs 403 errors ([c048278](https://github.com/Ephigenia/ikea-availability-checker/commit/c04827820947b20044cb3ab71e07f489f9b57102)), closes [#93](https://github.com/Ephigenia/ikea-availability-checker/issues/93)
+
+# [1.1.0](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.8...v1.1.0) (2022-02-11)
+
+
+### Features
+
+* adds typescript declarations ([#91](https://github.com/Ephigenia/ikea-availability-checker/issues/91)) ([f7a19e7](https://github.com/Ephigenia/ikea-availability-checker/commit/f7a19e7a0e56e862e071f146eded2421a4e8e262))
+
+## [1.0.8](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.7...v1.0.8) (2022-01-19)
+
+
+### Bug Fixes
+
+* **iows:** propagate timeout errors ([#90](https://github.com/Ephigenia/ikea-availability-checker/issues/90)) ([9023f54](https://github.com/Ephigenia/ikea-availability-checker/commit/9023f5452e5b11c30ce5b26e8bdaa5b0cde22cdf))
+
 ## [1.0.7](https://github.com/Ephigenia/ikea-availability-checker/compare/v1.0.6...v1.0.7) (2022-01-11)
 
 
